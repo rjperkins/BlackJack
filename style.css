@@ -1,0 +1,108 @@
+body {
+    background: linear-gradient(#0d4219, #24a636, #0d4219);
+}
+
+h1 {
+    font-size: 50px;
+    font-family: Tomorrow, sans-serif;
+    box-sizing: border-box;
+    text-align: center;
+    width: 100%;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+h2 {
+    color: Black;
+    font-size: 30px;
+    font-family: 'Staatliches', cursive;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+}
+
+.dealerHandArea {
+    text-align: center;
+    height: 155px;
+    padding-left: 24px;
+}
+
+.dealerHandCard {
+    display: inline-block;
+}
+
+#dealerHandValue {
+    font-size: 25px;
+    font-family: 'Staatliches', cursive;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    color: black;
+    text-align: center;
+}
+
+.playerHandArea {
+    text-align: center;
+    height: 155px;
+    padding-left: 24px;
+}
+
+.playerHandCard {
+    display: inline-block;
+}
+
+#playerHandValue {
+    font-size: 25px;
+    font-family: 'Staatliches', cursive;
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 20px
+}
+
+.buttons {
+    text-align: center;
+}
+
+.button {
+    background-color: #cf0202;
+    font-family: 'Staatliches', cursive;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 0.5px solid black;
+    margin-top: 10px;
+    margin-right: 1.5px;
+    margin-left: 1.5px;
+    padding: 3px 4px;
+    opacity: 0.75;
+    transition: 0.6s;
+}
+
+.button:hover {
+    opacity: 1;
+}
+
+.button:focus {
+    outline: 0;
+}
+
+.status {
+    font-family: 'Staatliches', cursive;
+    font-weight: lighter;
+    font-size: 30px;
+    text-align: right;
+    padding-top: 10px;
+    max-width: 1200px;
+}
+
+img {
+    max-width: 100px;
+    max-height: 100px;
+    margin: 7px -17px -17px;
+    width: auto;
+    height: auto;
+}

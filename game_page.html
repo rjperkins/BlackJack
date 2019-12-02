@@ -1,0 +1,51 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Blackjack!</title>
+    <link href="https://fonts.googleapis.com/css?family=Staatliches|Tomorrow&display=swap" rel="stylesheet">
+    <link href="./style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+  <h1>BLACKJACK</h1>
+  <h2>Dealer</h2>
+  <section class="dealerHandArea">
+    <div class="dealerHandCard" id = "dealerHandCard1"></div>
+    <div class="dealerHandCard" id = "dealerHandCard2"></div>
+    <div class="dealerHandCard" id = "dealerHandCard3"></div>
+    <div class="dealerHandCard" id = "dealerHandCard4"></div>
+    <div class="dealerHandCard" id = "dealerHandCard5"></div>
+    <div class="dealerHandCard" id = "dealerHandCard6"></div>
+    <div class="dealerHandCard" id = "dealerHandCard7"></div>
+    <div class="dealerHandCard" id = "dealerHandCard8"></div>
+    <div id = "dealerHandValue"></div>
+  </section>
+  <h2>Player</h2>
+  <section class="playerHandArea">
+    <div class="playerHandCard" id = "playerHandCard1"></div>
+    <div class="playerHandCard" id = "playerHandCard2"></div>
+    <div class="playerHandCard" id = "playerHandCard3"></div>
+    <div class="playerHandCard" id = "playerHandCard4"></div>
+    <div class="playerHandCard" id = "playerHandCard5"></div>
+    <div class="playerHandCard" id = "playerHandCard6"></div>
+    <div class="playerHandCard" id = "playerHandCard7"></div>
+    <div class="playerHandCard" id = "playerHandCard8"></div>
+    <div id = "playerHandValue"></div>
+  </section>
+
+  <section class="buttons">
+    <button class="button" id="hit">Hit</button>
+    <button class="button" id="stand">Stand</button>
+    <button class="button" id="newGame">New Game</button>
+  </section>
+
+  <section class="status">
+    <div id="gameStatus"></div>
+  </section>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="./script.js"></script>
+
+  </body>
+</html>
